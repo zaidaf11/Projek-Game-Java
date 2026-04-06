@@ -15,14 +15,14 @@ import javax.imageio.ImageIO;
 import java.io.InputStream;
 
 public class character {
-    public int x = 100;
-    public int y = 100;
+    public int x = 20;
+    public int y = 20;
     private BufferedImage image;
 
     public character() {
         try {
             // Pastikan filenya sudah di-export ke .png dari LibreSprite
-            InputStream is = getClass().getResourceAsStream("Brimob.png");
+            InputStream is = getClass().getResourceAsStream("/Brimob.png");
             if (is != null) {
                 image = ImageIO.read(is);
             }
@@ -36,7 +36,7 @@ public class character {
             g2d.drawImage(image, x, y, null);
         } else {
             g2d.setColor(java.awt.Color.RED);
-            g2d.fillRect(x, y, 50, 50);
+            g2d.fillRect(x, y, 10, 10);
         }
     }
 }
