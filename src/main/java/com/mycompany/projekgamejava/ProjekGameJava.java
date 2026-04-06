@@ -6,7 +6,7 @@ package com.mycompany.projekgamejava;
 
 /**
  *
- * @author Zaid Akmal
+ * @author Zaid Akmal Firdaus
  */
 
 import javax.swing.JFrame;
