@@ -9,5 +9,7 @@ package com.mycompany.projekgamejava;
  * @author DELL
  */
 public class character {
-    
+   private  String nama;
+   private int HP;
+   private int stamina;
 }
