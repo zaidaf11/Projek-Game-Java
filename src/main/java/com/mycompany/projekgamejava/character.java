@@ -12,4 +12,6 @@ public class character {
    private  String nama;
    private int HP;
    private int stamina;
+   private int weapon;
+   
 }
