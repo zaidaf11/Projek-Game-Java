@@ -6,7 +6,7 @@ package com.mycompany.projekgamejava;
 
 /**
  *
- * @author DELL
+ * @author Rasya Adrian
  */
 // Ganti dengan nama package kamu
 import java.awt.Graphics2D;
