@@ -14,4 +14,6 @@ public class character {
    private int stamina;
    private int weapon;
    
+   public void setnama = (String n)
+   
 }
