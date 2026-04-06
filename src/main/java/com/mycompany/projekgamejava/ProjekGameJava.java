@@ -8,10 +8,16 @@ package com.mycompany.projekgamejava;
  *
  * @author Zaid Akmal
  */
-public class ProjekGameJava {
 
+import javax.swing.JFrame;
+
+public class ProjekGameJava {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
-        system.out.printIn("AJIS TAMPAN");
+        JFrame window = new JFrame();
+        window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        window.add(new GamePanel());
+        window.pack();
+        window.setLocationRelativeTo(null);
+        window.setVisible(true);
     }
 }
